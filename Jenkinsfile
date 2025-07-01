@@ -7,7 +7,7 @@ pipeline {
             }
             post {
                 success {
-                    echo "Now Archiving the Artifacts-123....."
+                    echo "Now Archiving the Artifacts-1234....."
                     archiveArtifacts artifacts: '**/*.jar'
                 }
             }
